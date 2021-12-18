@@ -1,0 +1,38 @@
+---
+- name: installing and launching filebeat
+  hosts: webservers
+  become: yes
+  tasks:
+
+  - name: download filebeat deb
+    command: curl -L -O https://artifacts.elastic.co/downloads/beats/filebe>
+  - name: install filebeat deb
+    command: dpkg -i filebeat-7.4.0-amd64.deb
+
+  - name: drop in filebeat.yml
+    copy:
+      src: /etc/ansible/filebeat-config.yml
+      dest: /etc/filebeat/filebeat.yml
+
+  - name: enable and configure system module
+    command: filebeat modules enable system
+
+  - name: setup filebeat
+    command: filebeat setup
+
+  - name: start filebeat service
+    command: service filebeat start
+
+  - name: enable service filebeat on boot
+    systemd:
+      name: filebeat
+      enabled: yes#
+# Atom will evaluate this file each time a new window is opened. It is run
+# after packages are loaded/activated and after the previous editor state
+# has been restored.
+#
+# An example hack to log to the console when each text editor is saved.
+#
+# atom.workspace.observeTextEditors (editor) ->
+#   editor.onDidSave ->
+#     console.log "Saved! #{editor.getPath()}"
