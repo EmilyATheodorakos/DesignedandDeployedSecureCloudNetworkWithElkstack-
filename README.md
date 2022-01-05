@@ -19,12 +19,12 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 - _TODO: What does Metricbeat record?_ Metricbeat records metrics and statistics from the system and services on the server. 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
-| Name     | Function | IP Address             | Operating System |
-|----------|----------|------------            |------------------|
-| Jump Box | Gateway  | 10.0.0.4/20.115.23.169 | Linux            |
-| Web1     | Webserver| 10.0.0.9               | Linux            |
-| Web2     | Webserver| 10.0.0.8               | Linux            |
-| Elk-VM   | Webserver| 10.1.0.4               | Linux            |
+| Name    | Function  | IP Address             | Operating System |
+|---------|-----------|------------------------|------------------|
+| JumpBox | Gateway   | 10.0.0.4/20.115.23.169 | Linux            |
+| Web1    | Webserver | 10.0.0.9               | Linux            |
+| Web2    | Webserver | 10.0.0.8               | Linux            |
+| Elk-VM  | Webserver | 10.1.0.4/52.173.39.1   | Linux            |
 ### Access Policies
 The machines on the internal network are not exposed to the public Internet. 
 Only the Jump-Box Provisioner machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
