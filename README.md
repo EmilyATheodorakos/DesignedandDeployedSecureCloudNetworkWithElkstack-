@@ -20,12 +20,12 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 The configuration details of each machine may be found below.
 Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-| Name    | Function  | IP Address             | Operating System |
-|---------|-----------|------------------------|------------------|
-| JumpBox | Gateway   | 10.0.0.4-20.115.23.169 | Linux            |
-| Web1    | Webserver | 10.0.0.9               | Linux            |
-| Web2    | Webserver | 10.0.0.8               | Linux            |
-| Elk-VM  | Webserver | 10.1.0.4-52.173.39.1   | Linux            |
+| Name    | Function  | IP Address                         | Operating System |
+|---------|-----------|------------------------------------|------------------|
+| JumpBox | Gateway   | 10.0.0.4(priv) 20.115.23.169(pub)  | Linux            |
+| Web1    | Webserver | 10.0.0.9                           | Linux            |
+| Web2    | Webserver | 10.0.0.8                           | Linux            |
+| Elk-VM  | Webserver | 10.1.0.4(priv) 52.173.39.1 (pub)   | Linux            |
 
 ### Access Policies
 The machines on the internal network are not exposed to the public Internet. 
