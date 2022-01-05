@@ -44,7 +44,7 @@ A summary of the access policies in place can be found in the table below.
 | Elk-VM   | No                  | Workstation IP on HTTP port 80|
 ### Elk Configuration
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_The advantage of automating configuration with Ansible is that you can assign multiple commands/codes into to a number of servers using a playbook. 
+- _TODO: What is the main advantage of automating configuration with Ansible? The advantage of automating configuration with Ansible is that you can assign multiple commands/codes into to a number of servers using a playbook. 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 •	Indicate machines and remote user
@@ -80,10 +80,10 @@ SSH into the control node and follow the steps below:
 - Copy the ansible configuration file to run playbooks.
 - Update the ansible host file to include ip addresses. 
 - Run the playbook, and navigate to Jump-Box to check that the installation worked as expected.
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? install-elk.yml 
+TODO: Answer the following questions to fill in the blanks:
+- Which file is the playbook? install-elk.yml 
 - Where do you copy it? /etc/ansible/install-elk.yml
-- _Which file do you update to make Ansible run the playbook on a specific machine? install-elk.yml 
-- How do I specify which machine to install the ELK server on versus which to install Filebeat on?_You need to specify in the install-elk.yml which servers are installing elk. In addition you will need to edit the /etc/ansible/host file to add the elk server IP address. 
-- _Which URL do you navigate to in order to check that the ELK server is running? 52.173.39.1:5601/app/kibana This will take you to the kabana site. 
+- Which file do you update to make Ansible run the playbook on a specific machine? install-elk.yml 
+- How do I specify which machine to install the ELK server on versus which to install Filebeat on?You need to specify in the install-elk.yml which servers are installing elk. In addition you will need to edit the /etc/ansible/host file to add the elk server IP address. 
+- Which URL do you navigate to in order to check that the ELK server is running? 52.173.39.1:5601/app/kibana This will take you to the kabana site. 
 
