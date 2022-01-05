@@ -47,12 +47,12 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - _TODO: What is the main advantage of automating configuration with Ansible? The advantage of automating configuration with Ansible is that you can assign multiple commands/codes into to a number of servers using a playbook. 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-•	Indicate machines and remote user
-•	Increase System Memory
-•	Install selected services: docker.io, python3-pip,docker module 
-•	Download and launch a docker web container on ports 5601:5601,
-9200:9200, 5044:5044
-•	Enable service docker on boot
+- _Indicate machines and remote user
+- _Increase System Memory
+- _Install selected services: docker.io, python3-pip,docker module 
+- _Download and launch a docker web container on ports 5601:5601,
+  9200:9200, 5044:5044
+  •	Enable service docker on boot
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 ![This is the web1 docker output](https://github.com/EmilyATheodorakos/DesignedandDeployedSecureCloudNetworkWithElkstack-/blob/main/Images/web1_docker_ps_output.png)
 ![This is the web2 docker output](https://github.com/EmilyATheodorakos/DesignedandDeployedSecureCloudNetworkWithElkstack-/blob/main/Images/web2_docker_ps_output.png)
