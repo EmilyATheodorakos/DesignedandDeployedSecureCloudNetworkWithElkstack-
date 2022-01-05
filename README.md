@@ -52,7 +52,8 @@ The playbook implements the following tasks:
 - Install selected services: docker.io, python3-pip,docker module 
 - Download and launch a docker web container on ports 5601:5601,
   9200:9200, 5044:5044
-  •	Enable service docker on boot
+- Enable service docker on boot
+
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 ![This is the web1 docker output](https://github.com/EmilyATheodorakos/DesignedandDeployedSecureCloudNetworkWithElkstack-/blob/main/Images/web1_docker_ps_output.png)
 ![This is the web2 docker output](https://github.com/EmilyATheodorakos/DesignedandDeployedSecureCloudNetworkWithElkstack-/blob/main/Images/web2_docker_ps_output.png)
