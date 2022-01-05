@@ -28,9 +28,9 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 ### Access Policies
 The machines on the internal network are not exposed to the public Internet. 
 Only the Jump-Box Provisioner machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: 24.128.60.216
+- _TODO: 24.128.60.216 - Workstation IP
 Machines within the network can only be accessed by Jump-Box.
-- _TODO: 10.0.0.4/20.115.23.169 
+- _TODO: 10.0.0.4/20.115.23.169- Jump-Box private and public IP 
 Which machine did you allow to access your ELK VM? 
 I allowed access through my personal device. 
 What was its IP address? 
