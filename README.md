@@ -38,12 +38,14 @@ I allowed access through my personal device.
 What was its IP address? 
 24.128.60.216
 A summary of the access policies in place can be found in the table below.
+
 | Name     | Publicly Accessible | Allowed IP Addresses          |
 |----------|---------------------|-------------------------------|
 | Jump Box | Yes                 | Workstation IP on SSH port 22 |
 | Web1     | No                  | 10.0.0.4                      |
 | Web2     | No                  | 10.0.0.4                      | 
 | Elk-VM   | No                  | Workstation IP on HTTP port 80|
+
 ### Elk Configuration
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 - _TODO: What is the main advantage of automating configuration with Ansible? The advantage of automating configuration with Ansible is that you can assign multiple commands/codes into to a number of servers using a playbook. 
