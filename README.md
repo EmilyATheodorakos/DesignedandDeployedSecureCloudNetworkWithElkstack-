@@ -1,6 +1,6 @@
 # DesignedandDeployedSecureCloudNetworkWithElkstack- ## Automated ELK Stack Deployment
 The files in this repository were used to configure the network depicted below.
-![This is my Elk Network Diaram] (https://github.com/EmilyATheodorakos/DesignedandDeployedSecureCloudNetworkWithElkstack-/blob/main/Images/Elk%20Network%20Diagram.drawio.png)
+![This is my Elk Network Diaram](https://github.com/EmilyATheodorakos/DesignedandDeployedSecureCloudNetworkWithElkstack-/blob/main/Images/Elk%20Network%20Diagram.drawio.png)
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the .yml and config file may be used to install only certain pieces of it, such as Filebeat.
 ![This is my Elk playbook](https://github.com/EmilyATheodorakos/DesignedandDeployedSecureCloudNetworkWithElkstack-/blob/main/Ansible/install-elk.yml)
 This document contains the following details:
